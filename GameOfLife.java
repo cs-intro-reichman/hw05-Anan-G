@@ -5,10 +5,10 @@ public class GameOfLife {
 		String fileName = args[0];
 		//// Uncomment the test that you want to execute, and re-compile.
 		//// (Run one test at a time).
-		//// test1(fileName);
+		 test1(fileName);
 		//// test2(fileName);
 		//// test3(fileName, 3);
-		play(fileName);
+		//// play(fileName);
 	}
 	
 	private static void test1(String fileName) {
@@ -166,7 +166,6 @@ public class GameOfLife {
 	
     public static void print(int[][] arr) {
 
-		System.out.println();
 
 		for (int i = 0; i < arr.length; i++) {
 		
@@ -176,12 +175,8 @@ public class GameOfLife {
 
 			}
 
-			System.out.println();
-
-
 		}
 
-		System.out.println();
 
 	}
 
