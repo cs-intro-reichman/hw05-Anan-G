@@ -175,6 +175,8 @@ public class GameOfLife {
 
 			}
 
+			System.out.println();
+
 		}
 
 
