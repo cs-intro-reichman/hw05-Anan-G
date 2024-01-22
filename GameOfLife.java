@@ -6,8 +6,8 @@ public class GameOfLife {
 		//// Uncomment the test that you want to execute, and re-compile.
 		//// (Run one test at a time).
 		//// test1(fileName);
-		test2(fileName);
-		//// test3(fileName, 3);
+		//// test2(fileName);
+		 test3(fileName, 3);
 		//// play(fileName);
 	}
 	
@@ -35,7 +35,7 @@ public class GameOfLife {
 			for (int j = 1; j < board[i].length-1; j++){
 
 				System.out.print(cellValue(board, i, j)+ " ");
-				System.out.print("(" + i + " " + j + ")");
+
 
 			}
 		}
